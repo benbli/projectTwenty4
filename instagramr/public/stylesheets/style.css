@@ -37,5 +37,6 @@ header {
 
 .pictures-container {
   position: relative;
+  width: 980px;
   left: 8%;
 }
