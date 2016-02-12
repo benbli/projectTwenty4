@@ -1,0 +1,41 @@
+body {
+  padding: 50px;
+  font: 14px Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+h1 {
+  display: inline-block;
+}
+
+header {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  margin-left: 8%;
+  font-family: 'Bad Script', cursive;
+}
+
+#tagline {
+  margin-left: 2em;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#search-bar {
+  display: inline-block;
+  float: right;
+  margin-right: 17.5%;
+  margin-top: 1%;
+}
+
+#searchBtn {
+  margin-left: 1em;
+}
+
+.pictures-container {
+  position: relative;
+  left: 8%;
+}

@@ -1,0 +1,15 @@
+doctype html
+html(ng-app="instagramrApp")
+  head
+    title= title
+    link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css')
+    link(href='https://fonts.googleapis.com/css?family=Bad+Script', rel='stylesheet', type='text/css')
+    link(href='https://fonts.googleapis.com/css?family=Ubuntu:400,500', rel='stylesheet', type='text/css')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.8/angular.min.js')
+    script(src='/javascripts/app.js')
+    script(src='/javascripts/services/picturesApi.js')
+    script(src='/javascripts/controllers/main.js')
+  body(ng-controller="mainCtrl")
+    block content
